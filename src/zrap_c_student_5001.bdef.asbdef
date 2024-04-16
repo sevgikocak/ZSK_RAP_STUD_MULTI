@@ -1,0 +1,10 @@
+projection;
+strict ( 1 );
+
+define behavior for ZRAP_C_STUDENT_5001 alias Student
+{
+  use create;
+  use update;
+  use delete;
+  use action statusUpdate;
+}
